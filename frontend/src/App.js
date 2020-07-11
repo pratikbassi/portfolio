@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header'
+import Header from './homepage/header'
 
 
 function App() {
@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <Header/>
 
-        <footer></footer>
     </div>
   );
 }
