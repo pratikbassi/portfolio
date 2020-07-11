@@ -1,13 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './homepage/header'
+
+import Index from './homepage/index'
+
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Index/>
 
     </div>
   );
