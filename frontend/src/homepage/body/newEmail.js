@@ -13,22 +13,22 @@ export default function () {
 
     const sendEmail = () => {
         axios.post(
-            '/api/',
+            '/api/newEmail',
             state
-        )
+        )   .then(console.log('called'))
+            .catch((err)=>{console.log(err)})
     }
 
     return (
         <div className='email-form'>
             <form>
                 <label>
-                    Name:
-                    <input type="text" value={state.name} onChange={() => handleChange('name')} name="name" required/>
-                    <input type="email" value={state.email} onChange={() => handleChange('email')} name="email" required/>
-                    <input type="text" value={state.subject} onChange={() => handleChange('subject')} name="subject" required/>
-                    <input type="text" value={state.message} onChange={() => handleChange('message')} name="message" required/>
+                    <input class='form-name' type="text" placeholder="Name" value={state.name} onChange={handleChange} name="name" required/>
+                    <input class='form-email' type="email" placeholder="Email" value={state.email} onChange={handleChange} name="email" required/>
+                    <input class='form-subject' type="text" placeholder="Subject" value={state.subject} onChange={handleChange} name="subject" required/>
+                    <input class='form-message' type="text" placeholder="Message" value={state.message} onChange={handleChange} name="message" required/>
                 </label>
-                <button type="button" onClick={sendEmail}/>
+                <button type="button" onClick={sendEmail}>Submit!</button>
             </form>
         </div>
     )
