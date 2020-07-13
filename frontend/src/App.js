@@ -4,6 +4,8 @@ import './App.css';
 
 import Index from './homepage/index'
 
+require('dotenv').config()
+
 
 
 function App() {
