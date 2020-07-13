@@ -1,11 +1,11 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
-import Footer from '../homepage/footer';
+import EmailProgress from '../homepage/body/emailProgress';
 
 export default {
-  title: 'footer',
-  component: Footer,
+  title: 'emailProgress',
+  component: EmailProgress,
 };
 
-export const plain = () => <Footer />
+export const loading = () => <EmailProgress />
 

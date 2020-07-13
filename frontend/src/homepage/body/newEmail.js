@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
 import axios from 'axios'
+import {Form, Input, Button} from 'antd'
+import "antd/dist/antd.css";
+
 
 export default function () {
     let [state, setState] = useState(
@@ -21,15 +24,15 @@ export default function () {
 
     return (
         <div className='email-form'>
-            <form>
+            <Form>
                 <label>
-                    <input class='form-name' type="text" placeholder="Name" value={state.name} onChange={handleChange} name="name" required/>
-                    <input class='form-email' type="email" placeholder="Email" value={state.email} onChange={handleChange} name="email" required/>
-                    <input class='form-subject' type="text" placeholder="Subject" value={state.subject} onChange={handleChange} name="subject" required/>
-                    <input class='form-message' type="text" placeholder="Message" value={state.message} onChange={handleChange} name="message" required/>
+                    <Input class='form-name' type="text" placeholder="Name" value={state.name} onChange={handleChange} name="name" required/>
+                    <Input class='form-email' type="email" placeholder="Email" value={state.email} onChange={handleChange} name="email" required/>
+                    <Input class='form-subject' type="text" placeholder="Subject" value={state.subject} onChange={handleChange} name="subject" required/>
+                    <Input.TextArea class='form-message' type="text" placeholder="Message" value={state.message} onChange={handleChange} name="message" required/>
                 </label>
-                <button type="button" onClick={sendEmail}>Submit!</button>
-            </form>
+                <Button type="primary" onClick={sendEmail}>Submit!</Button>
+            </Form>
         </div>
     )
 }
