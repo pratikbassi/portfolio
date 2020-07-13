@@ -1,14 +1,9 @@
 import React from 'react';
-import { linkTo } from '@storybook/addon-links';
-import { Welcome } from '@storybook/react/demo';
+import Index from '../homepage/body/index';
 
 export default {
-  title: 'Welcome',
-  component: Welcome,
+  title: 'index',
+  component: Index,
 };
 
-export const ToStorybook = () => <Welcome showApp={linkTo('Button')} />;
-
-ToStorybook.story = {
-  name: 'to Storybook',
-};
+export const welcome = () => <Index  />

@@ -1,7 +1,7 @@
 import Header from './header'
 import Footer from './footer'
 import React from 'react';
-
+import axios from "axios";
 
 export default function () {
     const getGeo = ()=>{
