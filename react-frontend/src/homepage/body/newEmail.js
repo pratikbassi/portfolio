@@ -29,7 +29,7 @@ export default function () {
                     <Input class='form-name' type="text" placeholder="Name" value={state.name} onChange={handleChange} name="name" required/>
                     <Input class='form-email' type="email" placeholder="Email" value={state.email} onChange={handleChange} name="email" required/>
                     <Input class='form-subject' type="text" placeholder="Subject" value={state.subject} onChange={handleChange} name="subject" required/>
-                    <Input.TextArea class='form-message' type="text" placeholder="Message" value={state.message} onChange={handleChange} name="message" required/>
+                    <Input class='form-message' type="text" placeholder="Message" value={state.message} onChange={handleChange} name="message" required/>
                 </label>
                 <Button type="primary" onClick={sendEmail}>Submit!</Button>
             </Form>

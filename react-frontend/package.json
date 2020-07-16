@@ -43,6 +43,8 @@
     "@storybook/addons": "^5.3.19",
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^5.3.19",
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   }
 }
