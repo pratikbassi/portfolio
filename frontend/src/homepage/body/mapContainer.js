@@ -2,7 +2,7 @@ import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import React from 'react';
 export function MapContainer (props){
     return (
-      <Map google={props.google} zoom={14}>
+      <Map google={props.google} zoom={2}>
 
 
 
