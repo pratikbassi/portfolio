@@ -6,7 +6,7 @@ class EmailRequest(models.Model):
     email = models.CharField(max_length=200, blank=False)
     subject = models.CharField(max_length=200, blank=False)
     message = models.CharField(max_length=500, blank=False)
-    sent = models.BooleanField(default=False, blank=False)
+    sent = models.BooleanField(default=False, blank=True)
 
 
 class VisitorLocation(models.Model):

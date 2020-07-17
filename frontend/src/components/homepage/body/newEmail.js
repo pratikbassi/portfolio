@@ -10,15 +10,15 @@ export default function () {
     )
 
     const handleChange = (event) => {
-        let item = event.target.name
-        setState({item: event.target.value})
+        event.persist();
+        setState(() => ({...state, [event.target.name]: event.target.value}))
     }
 
     const sendEmail = () => {
         axios.post(
-            '/api/newEmail',
+            '/api/email/',
             state
-        )   .then(console.log('called'))
+        )   .then(console.log(state))
             .catch((err)=>{console.log(err)})
     }
 

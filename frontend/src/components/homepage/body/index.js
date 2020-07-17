@@ -12,9 +12,10 @@ export default function () {
     return (
         <div className='homepage-body'>
             Hello!
-            <MapContainer/>
             <NewEmail/>
             <EmailProgress/>
+            <MapContainer/>
+
         </div>
     )
 }
