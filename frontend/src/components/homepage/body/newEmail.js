@@ -6,7 +6,7 @@ import "antd/dist/antd.css";
 
 export default function () {
     let [state, setState] = useState(
-        {name: '', email: '', subject: '', message: ''}
+        {name: '', email: '', subject: '', message: '', show:false}
     )
 
     const handleChange = (event) => {
@@ -18,7 +18,13 @@ export default function () {
         axios.post(
             '/api/email/',
             state
-        )   .then(console.log(state))
+        )   .then((res) => {
+            console.log(res)
+            if (res.status === 201){
+                setState({name: '', email: '', subject: '', message: '', show: true})
+                setTimeout(()=>{alert("Email Sent!")},2000)
+            }
+        })
             .catch((err)=>{console.log(err)})
     }
 
