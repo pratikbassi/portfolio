@@ -6,11 +6,19 @@ export default function () {
 
 
     return (
-        <div className='app-header'>
-            <p className>TODO:back to top</p>
-            <h1>Pratik Bassi</h1>
-            <p>TODO:view resume</p>
-        </div>
+        <ul className='app-header'>
+
+            <li>
+                <h1 className='header-title'>Pratik Bassi</h1>
+            </li>
+            <li>
+                <p className='header-top'>TODO:back to top</p>
+            </li>
+            <li>
+                <p className='header-bottom'>TODO:view resume</p>
+            </li>
+
+        </ul>
     )
 }
 
