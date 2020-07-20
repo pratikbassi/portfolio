@@ -1,0 +1,39 @@
+@import "../../node_modules/antd/dist/antd.css";
+
+.app-header{
+  z-index: 999;
+  background-color: white;
+  position:fixed;
+  top:0;
+  overflow: hidden;
+  width: 100vw;
+  height: 10vh;
+  .header-top{
+    color: black;
+  }
+  .header-bottom{
+    color: black;
+  }
+  .header-title{
+    color: black;
+  }
+  li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+}
+
+.map-container {
+  height: 300px;
+  width: 400px;
+  #map {
+    position: relative;
+    height: 100%;
+  }
+}
+
+.homepage-body{
+  margin-top:10vh ;
+  width: 100%;
+}
