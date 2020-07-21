@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import axios from 'axios'
-import {Form, Input, Button} from 'antd'
-import "antd/dist/antd.css";
+import Input from '@material-ui/core/Input';
+
+import Button from '@material-ui/core/Button';
 
 
 export default function () {
@@ -30,7 +31,7 @@ export default function () {
 
     return (
         <div className='email-form'>
-            <Form>
+            <form>
                 <label>
                     <Input class='form-name' type="text" placeholder="Name" value={state.name} onChange={handleChange} name="name" required/>
                     <Input class='form-email' type="email" placeholder="Email" value={state.email} onChange={handleChange} name="email" required/>
@@ -38,7 +39,7 @@ export default function () {
                     <Input class='form-message' type="text" placeholder="Message" value={state.message} onChange={handleChange} name="message" required/>
                 </label>
                 <Button type="primary" onClick={sendEmail}>Submit!</Button>
-            </Form>
+            </form>
         </div>
     )
 }
