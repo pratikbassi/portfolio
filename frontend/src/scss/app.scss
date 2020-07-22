@@ -11,19 +11,21 @@
   top:0;
   overflow: hidden;
   width: 100vw;
-  height: 100vh;
-
+  height: 20vh;
+  display: inline;
 }
 
 .header-title{
+  margin-top: 2vh;
   font-size: 10vh;
+  line-height: 9vh;
   margin-left: 3vh;
   margin-bottom: 0;
   color: black;
 }
 .subtitle{
   color: black;
-  margin-left: 3vh;
+  margin-left: 3.4vh;
   font-size: 4vh;
   margin-bottom: 0;
 }
@@ -42,7 +44,7 @@
 }
 
 .homepage-body{
-  margin-top:10vh ;
+  margin-top:3vh ;
   width: 100%;
 }
 .Cursor {

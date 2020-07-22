@@ -35,6 +35,8 @@
     "google-maps-react": "^2.0.6",
     "node-sass": "^4.14.1",
     "react-desktop": "^0.3.9",
+    "react-modal": "^3.11.2",
+    "react-sliding-pane": "^6.1.0",
     "react-typist": "^2.0.5"
   }
 }
