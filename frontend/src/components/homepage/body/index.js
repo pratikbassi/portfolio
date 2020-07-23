@@ -52,27 +52,27 @@ export default function () {
                 closeTimeoutMS={500}
             >
                 <div className='scroller'>
-                                <Project images=
+                                <Project title={'Agency Sales Graphical Display'} images=
                                      {[
-                                        { url: "/static/agencysales1.png" },
-                                         { url: "/static/agencysales2.png" },
-                                         { url: "/static/agencysales3.png" },
-                                         { url: "/static/agencysales4.png" },
+                                        "/static/agencysales1.png",
+                                         "/static/agencysales2.png" ,
+                                         "/static/agencysales3.png" ,
+                                         "/static/agencysales4.png" ,
                                      ]}
                                 />
-                                 <Project images=
+                                 <Project title={'Meal Planning Application'} images=
                                      {[
-                                        { url: "/static/meezr1.png" },
-                                         { url: "/static/meezr2.png" },
-                                         { url: "/static/meezr3.png" },
+                                        "/static/meezr1.png" ,
+                                         "/static/meezr2.png" ,
+                                         "/static/meezr3.png" ,
 
                                      ]}
                                  />
-                                <Project images=
+                                <Project title={'News Website scraping and graphing app'} images=
                                      {[
-                                        { url: "/static/trender1.png" },
-                                         { url: "/static/trender2.png" },
-                                         { url: "/static/trender3.png" },
+                                        "/static/trender1.png" ,
+                                         "/static/trender2.png" ,
+                                         "/static/trender3.png" ,
                                      ]}
                                 />
 

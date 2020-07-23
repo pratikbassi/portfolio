@@ -1,4 +1,5 @@
 @import "../../node_modules/antd/dist/antd.css";
+@import "../../node_modules/react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 #app{
   background-color: white;
@@ -70,5 +71,18 @@ html {
 }
 
 .scroller {
-  max-height: 75vh;
+  max-height: 85vh;
+  max-width: 85vh;
+}
+
+.project-card{
+  margin-bottom: 1vh;
+}
+
+.project-image{
+  max-height: 80vh;
+  max-width: 81vh;
+}
+.card-header-title{
+  color: black;
 }

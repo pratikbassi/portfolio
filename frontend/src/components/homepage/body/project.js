@@ -1,19 +1,14 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Card } from '@material-ui/core';
 import Slider from "./slider";
 
 
 export default function (props) {
-    let [state, setState] = useState(
-        {name: '', email: '', subject: '', message: '', show:false}
-    )
 
 
     return (
-        <div className='project-card'>
-            <Card>
-                <Slider images={props.images}/>
-            </Card>
+        <div >
+                <Slider title={props.title} images={props.images}/>
         </div>
     )
 }

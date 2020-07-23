@@ -37,6 +37,7 @@
     "react-animated-modal": "^1.1.1",
     "react-desktop": "^0.3.9",
     "react-modal": "^3.11.2",
+    "react-responsive-carousel": "^3.2.9",
     "react-simple-image-slider": "^1.0.4",
     "react-sliding-pane": "^6.1.0",
     "react-typist": "^2.0.5"

@@ -1,20 +1,37 @@
-import SimpleImageSlider from "react-simple-image-slider";
 import React from "react";
-import {Card, CardContent } from "@material-ui/core";
+import {Card, CardContent, CardHeader } from "@material-ui/core";
+import { Carousel } from 'react-responsive-carousel';
 
 
 export default function (props) {
 
 
+    const getConfigurableProps = () => ({
+        showArrows: true,
+        showStatus:  false,
+        showIndicators: true,
+        infiniteLoop:  false,
+        showThumbs:  false,
+        useKeyboardArrows:  false,
+        autoPlay: false,
+        stopOnHover: false,
+        swipeable: false,
+        dynamicHeight:  true,
+        emulateTouch: false,
+        thumbWidth:  100,
+        selectedItem: 0,
+    });
+
+    console.log(props.title)
 
     return (
-        <div className='project-card'>
-            <Card>
+            <Card className='project-card'>
+                <CardHeader title={props.title} className='card-header'/>
                 <CardContent>
-                    <SimpleImageSlider width={600} height={400} images={props.images}/>
+                    <Carousel {...getConfigurableProps()}>
+                        {props.images.map(image => (<div> <img className='project-image' src={image}/> </div> ))}
+                    </Carousel>
                 </CardContent>
-
             </Card>
-        </div>
     )
 }
