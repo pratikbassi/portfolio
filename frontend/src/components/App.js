@@ -1,6 +1,3 @@
-
-
-
 import React from 'react';
 import Header from './homepage/header'
 import Body from './homepage/body/index'
