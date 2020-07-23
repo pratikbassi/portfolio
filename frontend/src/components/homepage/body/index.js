@@ -52,7 +52,7 @@ export default function () {
                 closeTimeoutMS={500}
             >
                 <div className='scroller'>
-                                <Project title={'Agency Sales Graphical Display'} images=
+                                <Project title={'Agency Sales'} subtitle={'Graphical Display of Sales Data'} images=
                                      {[
                                         "/static/agencysales1.png",
                                          "/static/agencysales2.png" ,
@@ -60,7 +60,7 @@ export default function () {
                                          "/static/agencysales4.png" ,
                                      ]}
                                 />
-                                 <Project title={'Meal Planning Application'} images=
+                                 <Project title={'Meezr'} subtitle={' A Nutrition and Meal Planning Application'} images=
                                      {[
                                         "/static/meezr1.png" ,
                                          "/static/meezr2.png" ,
@@ -68,7 +68,7 @@ export default function () {
 
                                      ]}
                                  />
-                                <Project title={'News Website scraping and graphing app'} images=
+                                <Project title={'Trender'} subtitle={'A News Website scraping and graphing app'} images=
                                      {[
                                         "/static/trender1.png" ,
                                          "/static/trender2.png" ,

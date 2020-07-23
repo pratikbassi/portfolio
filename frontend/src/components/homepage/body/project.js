@@ -7,8 +7,8 @@ export default function (props) {
 
 
     return (
-        <div >
-                <Slider title={props.title} images={props.images}/>
+        <div>
+                <Slider subtitle={props.subtitle} title={props.title} images={props.images}/>
         </div>
     )
 }

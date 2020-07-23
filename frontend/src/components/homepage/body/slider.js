@@ -26,7 +26,7 @@ export default function (props) {
 
     return (
             <Card className='project-card'>
-                <CardHeader title={props.title} className='card-header'/>
+                <CardHeader title={props.title} subheader={props.subtitle} className='card-header'/>
                 <CardContent>
                     <Carousel {...getConfigurableProps()}>
                         {props.images.map(image => (<div> <img className='project-image' src={image}/> </div> ))}
