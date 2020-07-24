@@ -2,10 +2,12 @@ import React, {useState} from 'react';
 import Typist from 'react-typist';
 import Modal from 'react-modal';
 import Project from './Project'
+import NewEmail from "./newEmail";
 
 export default function () {
     const [state, setState] = useState({
         isPaneOpen: false,
+        isEmailOpen: false
     })
 
     const customStyles = {
@@ -29,6 +31,17 @@ export default function () {
             setState((prevState => ({...prevState, isPaneOpen: false})))
         }
     }
+
+    const setEmailOpen = () => {
+        if (!state.isEmailOpen) {
+            setState((prevState => ({...prevState, isEmailOpen: true})))
+        }
+    }
+    const setEmailClose = () => {
+        if (state.isEmailOpen) {
+            setState((prevState => ({...prevState, isEmailOpen: false})))
+        }
+    }
     return (
         <div className='homepage-body'>
             <Typist
@@ -42,7 +55,7 @@ export default function () {
                 <br/>
                 <a className='subtitle-link' href='https://resume.creddle.io/resume/h21hxcw9x6e'> Resume </a>
                 <br/>
-                <a className='subtitle-link' href='mailto:pratikbassi@gmail.com'> Email Me </a>
+                <a className='subtitle-link' onClick={setEmailOpen}> Email Me </a>
             </Typist>
             <Modal
                 isOpen={state.isPaneOpen}
@@ -79,6 +92,14 @@ export default function () {
 
                 </div>
 
+            </Modal>
+            <Modal
+                isOpen={state.isEmailOpen}
+                onRequestClose={setEmailClose}
+                style={customStyles}
+                contentLabel="Email Me!"
+                closeTimeoutMS={500}>
+                <NewEmail/>
             </Modal>
 
         </div>
