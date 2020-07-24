@@ -127,3 +127,6 @@ STATICFILES_DIRS = (
     #This lets Django's collectstatic store our bundles
     os.path.join(BASE_DIR, 'assets'),
 )
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
