@@ -3,11 +3,13 @@ import Typist from 'react-typist';
 import Modal from 'react-modal';
 import Project from './Project'
 import NewEmail from "./newEmail";
+import MapContainer from "./mapContainer";
 
 export default function () {
     const [state, setState] = useState({
         isPaneOpen: false,
-        isEmailOpen: false
+        isEmailOpen: false,
+        isMapOpen:false
     })
 
     const customStyles = {
@@ -42,6 +44,17 @@ export default function () {
             setState((prevState => ({...prevState, isEmailOpen: false})))
         }
     }
+
+    const setMapOpen = () => {
+        if (!state.isMapOpen) {
+            setState((prevState => ({...prevState, isMapOpen: true})))
+        }
+    }
+    const setMapClose = () => {
+        if (state.isMapOpen) {
+            setState((prevState => ({...prevState, isMapOpen: false})))
+        }
+    }
     return (
         <div className='homepage-body'>
             <Typist
@@ -56,6 +69,8 @@ export default function () {
                 <a className='subtitle-link' href='https://resume.creddle.io/resume/h21hxcw9x6e'> Resume </a>
                 <br/>
                 <a className='subtitle-link' onClick={setEmailOpen}> Email Me </a>
+                <br/>
+                <a className='subtitle-link' onClick={setMapOpen}> Visitor Map </a>
             </Typist>
             <Modal
                 isOpen={state.isPaneOpen}
@@ -98,8 +113,18 @@ export default function () {
                 onRequestClose={setEmailClose}
                 style={customStyles}
                 contentLabel="Email Me!"
-                closeTimeoutMS={500}>
+                closeTimeoutMS={500}
+            >
                 <NewEmail/>
+            </Modal>
+            <Modal
+                isOpen={state.isMapOpen}
+                onRequestClose={setMapClose}
+                style={customStyles}
+                contentLabel="Email Me!"
+                closeTimeoutMS={500}
+            >
+                <MapContainer/>
             </Modal>
 
         </div>
