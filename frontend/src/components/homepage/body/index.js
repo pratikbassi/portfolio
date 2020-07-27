@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Typist from 'react-typist';
 import Modal from 'react-modal';
-import Project from './Project'
+import Project from './project'
 import NewEmail from "./newEmail";
 import MapContainer from "./mapContainer";
 
