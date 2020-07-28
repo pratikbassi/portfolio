@@ -60,13 +60,13 @@ export default function () {
             <Typist
                 avgTypingDelay={45}
             >
-                <a className='subtitle-link' onClick={setOpen}> Projects </a>
+                <a target="_blank" className='subtitle-link' onClick={setOpen}> Projects </a>
                 <br/>
-                <a className='subtitle-link' href='https://github.com/pratikbassi'> Github </a>
+                <a target="_blank" className='subtitle-link' href='https://github.com/pratikbassi'> Github </a>
                 <br/>
-                <a className='subtitle-link' href='https://www.linkedin.com/in/pratik-bassi-81a490173/'> LinkedIn </a>
+                <a target="_blank" className='subtitle-link' href='https://www.linkedin.com/in/pratik-bassi-81a490173/'> LinkedIn </a>
                 <br/>
-                <a className='subtitle-link' href='https://resume.creddle.io/resume/h21hxcw9x6e'> Resume </a>
+                <a target="_blank" className='subtitle-link' href='https://resume.creddle.io/resume/h21hxcw9x6e'> Resume </a>
                 <br/>
                 <a className='subtitle-link' onClick={setEmailOpen}> Email Me </a>
                 <br/>

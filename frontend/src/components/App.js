@@ -12,7 +12,7 @@ export default function App () {
                 locationY: response.data.longitude,
                 publicIp: response.data.ip || ''
             })
-                .then((response)=>{console.log(response)})
+                //.then((response)=>{console.log(response)})
                 .catch(
                     error => console
             )

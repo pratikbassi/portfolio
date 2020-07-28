@@ -31,7 +31,6 @@ export default function () {
             '/api/email/',
             state
         ).then((res) => {
-            console.log(res)
             if (res.status === 201) {
                 setState({name: '', email: '', subject: '', message: '', show: true})
                 setTimeout(() => {

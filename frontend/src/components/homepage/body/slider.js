@@ -22,8 +22,6 @@ export default function (props) {
         selectedItem: 0,
     });
 
-    console.log(props.title)
-
     return (
             <Card className='project-card'>
                 <CardHeader title={props.title} subheader={props.subtitle} className='card-header'/>

@@ -34,7 +34,6 @@ export function MapContainer(props) {
             <Map google={props.google} containerStyle={containerStyle} zoom={2} className={'map'}>
 
                 {state.locations.map(location => {
-                    console.log(location)
                     return(
                         <Marker position={{
                             lat: location.locationX,
