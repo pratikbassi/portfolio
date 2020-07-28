@@ -80,28 +80,41 @@ export default function () {
                 closeTimeoutMS={500}
             >
                 <div className='scroller'>
-                                <Project title={'Agency Sales'} subtitle={'Graphical Display of Sales Data'} images=
+                                <Project
+                                    title={'Agency Sales'}
+                                    subtitle={'Graphical Display of Sales Data'}
+                                    images=
                                      {[
                                         "/static/agencysales1.png",
                                          "/static/agencysales2.png" ,
                                          "/static/agencysales3.png" ,
                                          "/static/agencysales4.png" ,
                                      ]}
+                                    link={'https://imgur.com/a/klBSk4c'}
+
                                 />
-                                 <Project title={'Meezr'} subtitle={' A Nutrition and Meal Planning Application'} images=
+                                 <Project
+                                     title={'Meezr'}
+                                     subtitle={' A Nutrition and Meal Planning Application'}
+                                     images=
                                      {[
                                         "/static/meezr1.png" ,
                                          "/static/meezr2.png" ,
                                          "/static/meezr3.png" ,
 
                                      ]}
+                                     link={'https://github.com/pratikbassi/Meezr'}
                                  />
-                                <Project title={'Trender'} subtitle={'A News Website scraping and graphing app'} images=
+                                <Project
+                                    title={'Trender'}
+                                    subtitle={'A News Website scraping and graphing app'}
+                                    images=
                                      {[
                                         "/static/trender1.png" ,
                                          "/static/trender2.png" ,
                                          "/static/trender3.png" ,
                                      ]}
+                                    link={'http://www.trender.ca/'}
                                 />
 
 

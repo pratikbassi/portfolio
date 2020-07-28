@@ -31,6 +31,7 @@ export default function (props) {
                     <Carousel {...getConfigurableProps()}>
                         {props.images.map(image => (<div> <img className='project-image' src={image}/> </div> ))}
                     </Carousel>
+                    <a  href={props.link}>View Project</a>
                 </CardContent>
             </Card>
     )
