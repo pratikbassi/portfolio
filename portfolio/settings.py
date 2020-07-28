@@ -26,7 +26,7 @@ SECRET_KEY = 'y_iv#lnut-w8zi14ej)k^n%_#krgi4d6wo98o*n%f6dfvduvnp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.pratikbassi.ca', 'pratikbassi.ca']
+ALLOWED_HOSTS = ['www.pratikbassi.ca', 'pratikbassi.ca','3.129.117.94']
 
 
 # Application definition
