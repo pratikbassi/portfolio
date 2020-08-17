@@ -41,7 +41,7 @@ html {
 }
 .map-container {
   height: 75vh;
-  width: 75vh;
+  width: 55vw;
   #map {
     position: relative;
     height: 100%;
@@ -72,7 +72,6 @@ html {
 
 .scroller {
   height: 75vh;
-  min-width: 500px;
   max-width: 55vw;
 }
 
@@ -81,13 +80,10 @@ html {
 }
 
 .project-image{
-  width: 50%;
-  height: auto;
-}
-img {
   width: 100%;
   height: auto;
 }
+
 
 .card-header-title{
   color: black;
