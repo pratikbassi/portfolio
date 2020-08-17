@@ -91,6 +91,7 @@ export default function () {
                                          "/static/agencysales4.png" ,
                                      ]}
                                     link={'https://imgur.com/a/klBSk4c'}
+                                    stack={'PHP, Laravel, Apache2, Gitlab, HTML, CSS, Vue.js, Chart.js, Oracle 10g'}
 
                                 />
                                  <Project
@@ -104,6 +105,8 @@ export default function () {
 
                                      ]}
                                      link={'https://github.com/pratikbassi/Meezr'}
+                                     stack={'Ruby on Rails, React, HTML, CSS, PostgreSQL'}
+
                                  />
                                 <Project
                                     title={'Trender'}
@@ -115,6 +118,7 @@ export default function () {
                                          "/static/trender3.png" ,
                                      ]}
                                     link={'http://www.trender.ca/'}
+                                    stack={'PHP, Laravel, AWS EC2 Ubuntu Server, Vue.js, Chart.js, Vuetify'}
                                 />
 
 

@@ -30,6 +30,7 @@ export default function (props) {
                         {props.images.map(image => (<div> <img className='project-image' src={image}/> </div> ))}
                     </Carousel>
                     <a target="_blank" href={props.link}>View Project</a>
+                    <p>Stack: {props.stack}</p>
                 </CardContent>
             </Card>
     )
