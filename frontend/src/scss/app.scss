@@ -71,17 +71,21 @@ html {
 }
 
 .scroller {
-  max-height: 85vh;
-  max-width: 85vh;
+  height: 75vh;
+  min-width: 500px;
+  max-width: 55vw;
 }
 
 .project-card{
   margin-bottom: 2vh;
 }
 
-
-img {
+.project-image{
   width: 50%;
+  height: auto;
+}
+img {
+  width: 100%;
   height: auto;
 }
 
