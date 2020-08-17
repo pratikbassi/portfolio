@@ -17,6 +17,7 @@ export default function (props) {
         stopOnHover: false,
         swipeable: false,
         dynamicHeight:  true,
+        dynamicWidth: true,
         emulateTouch: false,
         thumbWidth:  100,
         selectedItem: 0,
@@ -26,7 +27,7 @@ export default function (props) {
             <Card className='project-card'>
                 <CardHeader title={props.title} subheader={props.subtitle} className='card-header'/>
                 <CardContent>
-                    <Carousel {...getConfigurableProps()}>
+                    <Carousel className='project-carousel' {...getConfigurableProps()}>
                         {props.images.map(image => (<div> <img className='project-image' src={image}/> </div> ))}
                     </Carousel>
                     <a target="_blank" href={props.link}>View Project</a>
