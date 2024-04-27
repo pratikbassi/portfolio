@@ -22,11 +22,15 @@ h1 {
   display: flex;
   flex-direction: row;
   font-size: 60px;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+body {
   margin: 0;
-  padding: 0.5em;
-  text-align: left;
-  background-color: unset;
-  border-bottom: unset;
+}
+#app {
+  margin: 5px 0 0 20px;
+  font-family: "Rockwell Extra Bold", monospace;
 }
 
 </style>

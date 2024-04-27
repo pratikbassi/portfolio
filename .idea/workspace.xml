@@ -4,247 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b1bd9fd-b2e1-4c68-abb0-8d433a9ae236" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/0002_auto_20200717_0408.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/agencysales1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/agencysales2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/agencysales3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/agencysales4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/meezr1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/meezr2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/meezr3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/trender1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/trender2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/trender3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/homepage/body/emailProgress.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/homepage/body/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/homepage/body/mapContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/homepage/body/newEmail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/homepage/body/project.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/homepage/body/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/homepage/footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/homepage/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/scss/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/templates/frontend/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-viewlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/agencysales1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/agencysales2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/agencysales3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/agencysales4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/django_extensions/css/jquery.autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/django_extensions/img/indicator.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/django_extensions/js/jquery.ajaxQueue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/django_extensions/js/jquery.autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/django_extensions/js/jquery.bgiframe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/frontend/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/meezr1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/meezr2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/meezr3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-tweaks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/font-awesome-4.0.3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/highlight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/jquery.json-view.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/img/grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/highlight.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/jquery.json-view.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/img/glyphicons-halflings-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/img/glyphicons-halflings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/img/grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/ajax-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/coreapi-0.1.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/csrf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/prettify-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/trender1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/trender2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/trender3.png" beforeDir="false" />
+    <list default="true" id="4b1bd9fd-b2e1-4c68-abb0-8d433a9ae236" name="Changes" comment="added new files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "pratikbassi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/pratikbassi/portfolio.git",
+    "accountId": "0db0d70a-0c7a-4f91-a5d3-16a8ea3ecfbc"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -306,11 +80,33 @@
       <option name="presentableId" value="Default" />
       <updated>1714166059899</updated>
       <workItem from="1714166060399" duration="170000" />
-      <workItem from="1714166246604" duration="2278000" />
+      <workItem from="1714166246604" duration="4019000" />
     </task>
+    <task id="LOCAL-00001" summary="removed old files, building new project with modern django and vue">
+      <option name="closed" value="true" />
+      <created>1714169585598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714169585598</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added new files">
+      <option name="closed" value="true" />
+      <created>1714169609907</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714169609907</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed old files, building new project with modern django and vue" />
+    <MESSAGE value="added new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new files" />
   </component>
 </project>
