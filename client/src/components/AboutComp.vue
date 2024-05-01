@@ -15,5 +15,6 @@ const careerLength = ((new Date()).getTime() - (new Date('2019-09-01')).getTime(
     Outside of work, I like photography, cooking, travelling, scuba diving, and Brazilian Jiu Jitsu - among other things. <br/>
 
     <br/>
+
   </p>
 </template>
