@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b1bd9fd-b2e1-4c68-abb0-8d433a9ae236" name="Changes" comment="moved to vue3 project">
+    <list default="true" id="4b1bd9fd-b2e1-4c68-abb0-8d433a9ae236" name="Changes" comment="updated and added short projects and resume">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AboutComp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AboutComp.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/HomeComp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/HomeComp.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProjectsComp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProjectsComp.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/ResumeComp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ResumeComp.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\portfolio\client\public" />
       <recent name="C:\projects\portfolio\client\src\views" />
       <recent name="C:\projects\portfolio\client\src\components" />
     </key>
@@ -93,7 +93,8 @@
       <workItem from="1714166060399" duration="170000" />
       <workItem from="1714166246604" duration="10157000" />
       <workItem from="1714333185746" duration="7118000" />
-      <workItem from="1714600678030" duration="1080000" />
+      <workItem from="1714600678030" duration="2978000" />
+      <workItem from="1714929910091" duration="1258000" />
     </task>
     <task id="LOCAL-00001" summary="removed old files, building new project with modern django and vue">
       <option name="closed" value="true" />
@@ -127,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714341141411</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated and added short projects and resume">
+      <option name="closed" value="true" />
+      <created>1714601792016</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714601792016</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +147,7 @@
     <MESSAGE value="added new files" />
     <MESSAGE value="updated font" />
     <MESSAGE value="moved to vue3 project" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved to vue3 project" />
+    <MESSAGE value="updated and added short projects and resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated and added short projects and resume" />
   </component>
 </project>
