@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/robots": "^3.0.0",
     "nuxt": "^3.11.2",
     "sass": "^1.76.0",
     "vue": "^3.4.21",
