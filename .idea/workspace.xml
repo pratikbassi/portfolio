@@ -4,12 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b1bd9fd-b2e1-4c68-abb0-8d433a9ae236" name="Changes" comment="updated and added short projects and resume">
+    <list default="true" id="4b1bd9fd-b2e1-4c68-abb0-8d433a9ae236" name="Changes" comment="updated components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ResumeComp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ResumeComp.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.prettierrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/AboutComp.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/HomeComp.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ProjectsComp.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ResumeComp.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/stores/counter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/AboutView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/HomeView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/ProjectsView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/views/ResumeView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/vite.config.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +92,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\portfolio\frontend" />
+      <recent name="C:\projects\portfolio\frontend\pages" />
       <recent name="C:\projects\portfolio\client\public" />
       <recent name="C:\projects\portfolio\client\src\views" />
       <recent name="C:\projects\portfolio\client\src\components" />
@@ -94,7 +119,7 @@
       <workItem from="1714166246604" duration="10157000" />
       <workItem from="1714333185746" duration="7118000" />
       <workItem from="1714600678030" duration="2978000" />
-      <workItem from="1714929910091" duration="1258000" />
+      <workItem from="1714929910091" duration="4290000" />
     </task>
     <task id="LOCAL-00001" summary="removed old files, building new project with modern django and vue">
       <option name="closed" value="true" />
@@ -136,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714601792016</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated components">
+      <option name="closed" value="true" />
+      <created>1714933036774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714933036774</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +181,7 @@
     <MESSAGE value="updated font" />
     <MESSAGE value="moved to vue3 project" />
     <MESSAGE value="updated and added short projects and resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated and added short projects and resume" />
+    <MESSAGE value="updated components" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated components" />
   </component>
 </project>

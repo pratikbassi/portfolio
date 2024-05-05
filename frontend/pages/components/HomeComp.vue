@@ -10,9 +10,9 @@
 
   <h3>Quick Links</h3>
   <ul>
-    <li><a href="https://github.com/pratikbassi/">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/pratik-bassi-81a490173/">LinkedIn</a></li>
-    <li><a href="https://leetcode.com/u/pratikbassi/">LeetCode</a></li>
+    <li><a target='_blank' href="https://github.com/pratikbassi/">GitHub</a></li>
+    <li><a target='_blank' href="https://www.linkedin.com/in/pratik-bassi-81a490173/">LinkedIn</a></li>
+    <li><a target='_blank' href="https://leetcode.com/u/pratikbassi/">LeetCode</a></li>
   </ul>
 </template>
 

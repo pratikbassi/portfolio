@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import Resume from '../components/ResumeComp.vue'
+  import Resume from '~/pages/components/ResumeComp.vue'
 
 </script>
 

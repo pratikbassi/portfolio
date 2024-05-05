@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import Projects from '../components/ProjectsComp.vue'
+  import Projects from '~/pages/components/ProjectsComp.vue'
 
 </script>
 
