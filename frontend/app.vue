@@ -9,7 +9,6 @@ import 'assets/main.scss'
       <NuxtLink to="/">Home</NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
       <NuxtLink to="/resume">Resume</NuxtLink>
-      <NuxtLink to="/projects">Projects</NuxtLink>
     </nav>
   </header>
   <main>
