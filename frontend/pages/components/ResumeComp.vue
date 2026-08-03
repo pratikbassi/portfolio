@@ -4,7 +4,7 @@
 
 <template>
   <h2>Resume</h2>
-  <a target='_blank' href="https://www.dropbox.com/scl/fi/l3dot5zoo0pcmpvhj5ob9/Pratik-Resume-Long-ATS.pdf?rlkey=rotwykuqlp66hdf57oumiba8g&dl=0">
+  <a target='_blank' href="https://www.dropbox.com/scl/fi/dcjk9y3r2351y4xmmcru7/Pratik-Resume-Long-ATS.pdf?rlkey=1rqc2qokgh1ptno9clixme2xq&dl=0">
     Dropbox link to my resume
   </a>
 </template>

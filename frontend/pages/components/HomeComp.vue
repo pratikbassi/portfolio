@@ -10,6 +10,8 @@
 
   <h3>Quick Links</h3>
   <ul>
+    <li><a target='_blank' href="https://www.instagram.com/pratik.bassi.photography/">Instagram</a></li>
+    <li><a target='_blank' href="https://www.pratikbassiphotography.ca/">Photography Website</a></li>
     <li><a target='_blank' href="https://github.com/pratikbassi/">GitHub</a></li>
     <li><a target='_blank' href="https://www.linkedin.com/in/pratik-bassi-81a490173/">LinkedIn</a></li>
     <li><a target='_blank' href="https://leetcode.com/u/pratikbassi/">LeetCode</a></li>
